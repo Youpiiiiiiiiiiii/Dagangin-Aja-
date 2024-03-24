@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dagangin Aja</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .jumbotron {
+            background-image: url('530085.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 500px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .jumbotron h1 {
+            text-shadow: 1px 4px 10px black;
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .jumbotron p {
+            text-shadow: 1px 4px 10px black;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        .featured-products {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .product-card {
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-card h3 {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+
+        .product-card p {
+            font-size: 1.25rem;
+            color: #6c757d;
+        }
+
+        /* Nav bar styling */
+        .navbar-nav .nav-link {
+            color: black !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #2ecc71 !important;
+        }
+
+        .navbar-nav .nav-item.active .nav-link {
+            background-color: #2ecc71;
+            color: white !important;
+            border-radius: 20px;
+        }
+
+        .navbar-nav .nav-item.active .nav-link:hover {
+            background-color: #eaeaea;
+        }
+        .firstname{
+          color: #2ecc71;
+          font-weight: 700;
+        }
+
+        .active{
+          background-color: #2ecc71;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="firstname">Dagangin</span>
+                <span class="lastname">Aja!</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Tentang Kami</h1>
+            <p>Anda butuh jam tangan?, segera pesan di dagangin aja!</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Our Story</h2>
+                <p>
+                    Di tengah pesatnya perkembangan teknologi, Yudan, seorang pengusaha muda dengan kecintaan pada jam tangan, memanfaatkan peluang e-commerce dengan mendirikan Dagangin Aja! Dengan strategi pemasaran yang cerdas dan fokus pada pengalaman pengguna, toko online ini berhasil menjadi destinasi utama bagi para pecinta jam tangan di Indonesia. Dengan menyediakan berbagai merek dari lokal hingga internasional, Ahmad tidak hanya menjual produk, tetapi juga membangun komunitas yang solid di sekitar passion bersama, mengubah cara tradisional berbelanja jam tangan menjadi pengalaman yang lebih mudah dan menyenangkan dalam ranah digital.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Our Mission</h2>
+                <p>
+                    Misi Dagangin Aja! adalah untuk menjadi pusat inspirasi dan sumber terpercaya bagi para pecinta jam tangan di Indonesia. Kami berkomitmen untuk menyediakan koleksi jam tangan yang beragam, berkualitas, dan terkini, sambil memberikan pengalaman berbelanja online yang memuaskan melalui layanan pelanggan yang unggul. Melalui platform kami, kami ingin tidak hanya menjual produk, tetapi juga menginspirasi dan membangun komunitas yang kuat di sekitar cinta kami terhadap jam tangan, membantu para pelanggan mengekspresikan gaya dan kepribadian mereka melalui aksesori yang berkelas ini.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
